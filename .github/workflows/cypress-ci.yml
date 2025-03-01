@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   cypress-electron-tests:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Get code
       - uses: actions/checkout@v4.2.2
@@ -13,4 +13,4 @@ jobs:
       - run: npm install
 
       - name: Run E2E tests
-      - Run: npx cypress run
+      - run: npx cypress run
