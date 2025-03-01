@@ -7,10 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get code
-      - uses: actions/checkout@v3.3.0
+        uses: actions/checkout@v3.3.0
 
       - name: Install dependencies
-      - run: npm install
+        run: npm install
 
       - name: Run E2E tests
-      - run: npx cypress run
+        run: npx cypress run
