@@ -1,4 +1,4 @@
-name: Cypress Tests
+name: WF Cypress Tests Simples
 
 on:
   workflow_dispatch:

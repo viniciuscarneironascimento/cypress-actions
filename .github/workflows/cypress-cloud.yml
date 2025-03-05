@@ -1,4 +1,4 @@
-name: Cypress Cloud
+name: WF Cypress Cloud
 
 on:
   workflow_dispatch:

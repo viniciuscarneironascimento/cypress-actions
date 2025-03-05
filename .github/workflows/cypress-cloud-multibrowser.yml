@@ -1,4 +1,4 @@
-name: Cypress Cloud
+name: WF Cypress paralelismo
 
 on:
   workflow_dispatch:
